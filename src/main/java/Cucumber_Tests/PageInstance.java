@@ -1,6 +1,10 @@
 package Cucumber_Tests;
 
+import Cucumber_Tests.PilotStatistics.PilotStatistics;
+import Table.Cell;
+import Table.Table;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -15,6 +19,11 @@ public class PageInstance {
     protected static WebDriver driver;
     protected static String baseURL;
     protected static StartPage startPage;
+    protected static Table table;
+    protected static Cell cell;
+    protected static PilotStatistics pilotStatistics;
+    protected static WebElement webElement;
+
 
     public static void setBrowser(String browser){
         File file;

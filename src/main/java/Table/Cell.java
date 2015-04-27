@@ -16,6 +16,7 @@ import java.util.List;
  */
 public class Cell {
     protected WebDriver driver;
+    protected WebElement webElement;
 
     public Cell(WebDriver driver){
         this.driver = driver;
